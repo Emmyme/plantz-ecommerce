@@ -1,0 +1,32 @@
+.header-text {
+    color: #3E593A;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
+}
+
+header {
+    background-color: white;
+    display: inline-flex;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cart-nav {
+    justify-self: flex-end;
+    margin:  0.5rem 2rem 0.5rem auto;
+    align-self:center;
+    border-style: solid;
+    border-color: #3E593A;
+    border-radius: 20%;
+    border-width: 0.25rem;
+    padding: 0.2rem 1rem 0.2rem 0.8rem;
+}
+
+.cart-icon {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(7%) saturate(2074%) hue-rotate(66deg) brightness(99%) contrast(92%);;
+}

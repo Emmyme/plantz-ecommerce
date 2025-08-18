@@ -1,0 +1,33 @@
+.hero {
+    background-color: #3E593A;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    color: white;
+    font-size: 6rem;
+    width: 40vw;
+    margin-left: 3rem;
+    line-height: 10rem;
+    letter-spacing: 0.2rem;
+}
+
+.heroImg {
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1000px) {
+    .hero h2 {
+        width: 100vw;
+        line-height: 8rem;
+    }
+
+    .heroImg {
+        display: none;
+    }
+}
