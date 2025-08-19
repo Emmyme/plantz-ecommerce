@@ -37,7 +37,7 @@ The app uses SQLite with sample plant data. The database is automatically create
 
 ## Images
 
-**⚠️ Note:** The demo images are not included in this repository due to licensing restrictions.
+**⚠️ Note:** The demo images are not included in this repository.
 
 To run this demo with images:
 
@@ -52,6 +52,4 @@ To run this demo with images:
 
 **Alternative:** Use free images from [Unsplash](https://unsplash.com/) or [Pexels](https://pexels.com/)
 
-## License
 
-MIT
