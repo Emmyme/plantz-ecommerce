@@ -35,21 +35,39 @@ plantz-shop/
 
 The app uses SQLite with sample plant data. The database is automatically created on first run.
 
-## Images
+## Images Setup
 
-**⚠️ Note:** The demo images are not included in this repository.
+⚠️ **Note**: Demo images are not included in this repository.
 
-To run this demo with images:
+### Required Images
 
-1. Download plant images from [Freepik](https://www.freepik.com/) (premium license required)
-2. Place them in `frontend/public/productImg/` with these filenames:
-   - `alocasia.png`, `alpinia.png`, `basil.png`, `begonia.png`
-   - `birdsnest.png`, `cactus.png`, `cactus2.png`, `callalily.png`
-   - `calluna.png`, `crocus.png`, `fiddle-leaf-fig.png`, `hyacinth.png`
-   - `impatiens.png`, `kalanchoe.png`, `laceflower.png`, `monstera.png`
-   - `orchid.png`, `peacelily.png`, `peperomia.png`, `petunia.png`
-   - `primrose.png`, `rose.png`, `saintpaulia.png`, `tulip.png`, `weepingfig.png`
+Create the assets folder and add these images to `frontend/src/assets/`:
 
+```bash
+mkdir frontend/src/assets
+```
+
+**Required images:**
+- `cart.svg` - Shopping cart icon
+- `heroimg.png` - Hero section background  
+- `indoor.png` - Indoor plants category
+- `outdoor.png` - Outdoor plants category
+- `page-decoration.png` - Decorative element
+- `showall.png` - Show all category
+- `succulent.png` - Succulent category
+
+*Note: You can use any images you prefer. For free images, try [Unsplash](https://unsplash.com) or [Pexels](https://pexels.com).*
+
+### Product Images
+
+For product images, place them in `frontend/public/productImg/` with these filenames:
+- alocasia.png, alpinia.png, basil.png, begonia.png
+- birdsnest.png, cactus.png, cactus2.png, callalily.png
+- calluna.png, crocus.png, fiddle-leaf-fig.png, hyacinth.png
+- impatiens.png, kalanchoe.png, laceflower.png, monstera.png
+- orchid.png, peacelily.png, peperomia.png, petunia.png
+- primrose.png, rose.png, saintpaulia.png, tulip.png, weepingfig.png
+- 
 **Alternative:** Use free images from [Unsplash](https://unsplash.com/) or [Pexels](https://pexels.com/)
 
 
